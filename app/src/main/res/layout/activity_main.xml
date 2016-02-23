@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="@string/lightness"/>
+
+        <TextView
+            android:id="@+id/tv_lightness"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="0"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="@string/color"/>
+
+        <TextView
+            android:id="@+id/tv_color"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="0"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="@string/saturation"/>
+
+        <TextView
+            android:id="@+id/tv_saturation"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:gravity="center"
+            android:text="0"
+            />
+    </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_lightness"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:text="@string/btn_lightness"/>
+
+        <Button
+            android:id="@+id/btn_color"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:text="@string/btn_color"/>
+
+        <Button
+            android:id="@+id/btn_saturation"
+            android:layout_width="@dimen/width"
+            android:layout_height="@dimen/height"
+            android:text="@string/btn_saturation"/>
+
+
+    </LinearLayout>
+</LinearLayout>

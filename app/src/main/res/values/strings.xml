@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ZhangYing</string>
+    <string name="lightness">亮度:</string>
+    <string name="color">色彩:</string>
+    <string name="saturation">饱和度:</string>
+    <string name="btn_lightness">亮度</string>
+    <string name="btn_color">色彩</string>
+    <string name="btn_saturation">饱和度</string>
+</resources>
